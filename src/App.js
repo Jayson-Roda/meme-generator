@@ -1,11 +1,11 @@
 import './App.css';
-import Header from './components/Header'
+import Navbar from './components/Navbar'
 import Meme from './components/Meme';
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Navbar />
       <Meme />
     </div>
   );
